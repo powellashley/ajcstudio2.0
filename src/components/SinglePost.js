@@ -94,12 +94,10 @@ export default function SinglePost() {
 
         <main>
 
-            <head>
                 <MetaTags>
                 <meta name="title" property="og:title" content={singlePost.title} />
                 <meta name="image" property="og:image" content={singlePost.mainImage.asset.url} />
                 </MetaTags>
-            </head>
 
             <body>
 
