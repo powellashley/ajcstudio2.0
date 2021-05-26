@@ -90,12 +90,14 @@ export default function SinglePost() {
     return (
 
         <>
-        <head>
-                    <meta name="title" property="og:title" content={singlePost.title} />
-                    <meta name="image" property="og:image" content={singlePost.mainImage.asset.url} />
-        </head>
 
         <main>
+
+            <head>
+                <meta name="title" property="og:title" content={singlePost.title} />
+                <meta name="image" property="og:image" content={singlePost.mainImage.asset.url} />
+            </head>
+
             <body>
 
                     <section>

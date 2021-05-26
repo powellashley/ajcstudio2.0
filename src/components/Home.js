@@ -23,18 +23,18 @@ export default function Home() {
 
     return (
 
-        <>
-            <head>
-                    <meta name="description" property="og:description" content="My Portfolio Website, website design + development by me" />
-                    <meta name="title" property="og:title" content="AshleyJamesCreative" />
-                    <meta name="image" property="og:image" content="https://uploads-ssl.webflow.com/5eebd8c985e3ccd7ecc96f67/60ae37a00780f5a9af60ef44_Meta%20head%20image%20for%20web%402x.png" />
-            </head>
-
+    <>
         <main className='homepage'>
 
             {homeData && homeData.map((home, index) => (
-
+            
             <>
+                <head>
+                    <meta name="description" property="og:description" content="My Portfolio Website, website design + development by me" />
+                    <meta name="title" property="og:title" content="AshleyJamesCreative" />
+                    <meta name="image" property="og:image" content="https://uploads-ssl.webflow.com/5eebd8c985e3ccd7ecc96f67/60ae37a00780f5a9af60ef44_Meta%20head%20image%20for%20web%402x.png" />
+                </head>
+
                 <h1 className='pagetitle boldfont text-2xl md:text-3xl lg:text-4xl'>
                             Hello, I'm Ashley.
                 </h1>
@@ -108,6 +108,7 @@ export default function Home() {
             ))}
         </main>
 
-        </>
+    </>
+
     )
 };
