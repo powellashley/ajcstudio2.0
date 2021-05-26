@@ -1,0 +1,20 @@
+.content-contain {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.full-w-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}

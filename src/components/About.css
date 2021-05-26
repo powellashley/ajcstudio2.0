@@ -1,0 +1,94 @@
+.aboutcontainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 6rem;
+    display: flex;
+    float: right;
+}
+
+.aboutme--main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.aboutpgimage {
+    width: 100%;
+    min-height: 350px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.aboutcolumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: #DBD7D0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutbox {
+    background-color: #DBD7D0;
+    padding: 30px;
+    margin: auto;
+}
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 800px) {
+    .aboutcolumn {
+      flex: 1
+    }
+  
+    .double-column {
+      flex: 2
+    }
+
+    .aboutcontainer {
+        max-width: 60%;
+        float: right;
+    }
+  }
+
+.aboutcreamtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #efebe3;
+    text-align: right;
+    padding-right: 30px;
+}
+  
+.aboutcreamtitle:hover {
+    color: #DBD7D0;
+}
+
+.btncontainer {
+    height: 180px;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 415px){
+    .aboutcontainer {
+      flex-direction: row;
+    }
+
+    .aboutme--main {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
+

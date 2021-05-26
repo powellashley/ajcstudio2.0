@@ -1,0 +1,10 @@
+.contactpagecontainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.contactpageimage {
+    height: auto;
+    width: 100%;
+    float: center;
+}

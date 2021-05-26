@@ -1,0 +1,44 @@
+.cv-contain {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.cv-skills {
+    float: right;
+    padding-left: 35vw;
+    text-align: left;
+}
+
+.cv-content {
+    padding-bottom: 6rem;
+    margin-right: 3rem;
+}
+
+.cvimgcaption {
+    float: right;
+    padding-right: 30px;
+    vertical-align: bottom;
+}
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 800px) {
+    .cv-column {
+      flex: 1
+    }
+  
+    .double-column {
+      flex: 2
+    }
+  }
+
+  @media screen and (min-width: 415px){
+    .cv-contain {
+      flex-direction: row;
+    }
+
+}

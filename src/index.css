@@ -1,0 +1,47 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,500&display=swap');
+
+.tagfont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.bodyfont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.captionfont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.italicfont {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.boldfont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.pagetitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-top: 10%;
+  margin-left: 4rem;
+}
+
+.creamtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #efebe3;
+}
+
+.creamtitle:hover {
+  color: #DBD7D0;
+}
