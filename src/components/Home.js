@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import './Home.css';
 import sanityClient from "../client.js";
 import { NavLink } from "react-router-dom";
-import MetaTags from 'react-meta-tags';
 
 export default function Home() {
     const [homeData, setHomeData] = useState(null);
@@ -29,12 +28,7 @@ export default function Home() {
 
             {homeData && homeData.map((home, index) => (
             
-            <>
-                <MetaTags>
-                    <meta name="description" property="og:description" content="My Portfolio Website, website design + development by me" />
-                    <meta name="title" property="og:title" content="AshleyJamesCreative" />
-                    <meta name="image" property="og:image" content="https://uploads-ssl.webflow.com/5eebd8c985e3ccd7ecc96f67/60ae37a00780f5a9af60ef44_Meta%20head%20image%20for%20web%402x.png" />
-                </MetaTags>                
+            <>             
 
                 <h1 className='pagetitle boldfont text-2xl md:text-3xl lg:text-4xl'>
                             Hello, I'm Ashley.

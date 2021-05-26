@@ -5,7 +5,6 @@ import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import './SinglePost.css';
 import Slider from 'react-simple-slideshow';
-import MetaTags from 'react-meta-tags';
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -93,11 +92,6 @@ export default function SinglePost() {
         <>
 
         <main>
-
-                <MetaTags>
-                <meta name="title" property="og:title" content={singlePost.title} />
-                <meta name="image" property="og:image" content={singlePost.mainImage.asset.url} />
-                </MetaTags>
 
             <body>
 
